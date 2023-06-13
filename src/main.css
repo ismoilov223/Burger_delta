@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    .nav-link{
+      @apply text-[#fff] font-normal text-xl;
+    }
+    .nav-item{
+      @apply text-xl;
+    }
+    .max-with{
+      @apply max-w-[1410px] mx-auto;
+    }
+  }
